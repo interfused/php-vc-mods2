@@ -1,0 +1,128 @@
+.wp-admin .wpb_adv_btn .button_text {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.wp-admin .wpb_adv_btn .button_text {
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	background-color: transparent;
+
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	position: relative;
+	top: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	line-height: normal;
+	font-size: 14px;
+	padding: 14px 20px;
+}
+
+/*
+.wp-admin .wpb_adv_btn .button_text {
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,.2) 0,rgba(255,255,255,.01) 100%);
+    background-image: linear-gradient(to bottom,rgba(255,255,255,.2) 0,rgba(255,255,255,.01) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33ffffff', endColorstr='#03ffffff', GradientType=0);
+}
+
+.vc_btn3.vc_btn3-shape-rounded {
+    border-radius: 5px;
+}
+.vc_btn3.vc_btn3-size-sm {
+    font-size: 12px;
+    padding: 11px 16px;
+}
+.vc_btn3.vc_btn3-color-grey, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat {
+    color: #666;
+    background-color: #EBEBEB;
+}
+
+*/
+.wp-admin .wpb_adv_btn .button_text {
+	margin-top: 1em;
+	color: #666;
+	border-color: #EBEBEB;
+	background-color: #EBEBEB;
+}
+
+.wp-admin .wpb_adv_btn .link_url,
+.wp-admin .wpb_adv_btn .id,
+.wp-admin .wpb_adv_btn .data_attributes_str,
+.wp-admin .wpb_adv_btn .additional_css_classes{
+	display: none;
+}
+
+/* MODAL STYLE */
+.wp-admin .wpb_mdl_bootstrap_modal .id{
+	display:none; 
+}
+
+.wp-admin .wpb_mdl_bootstrap_modal .button_text{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	background-color: transparent;
+
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	position: relative;
+	top: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	line-height: normal;
+	font-size: 14px;
+	padding: 14px 20px;
+}
+
+.wp-admin .wpb_mdl_bootstrap_modal .button_text {
+	margin-top:1em;
+	color: #666;
+	border-color: #EBEBEB;
+	background-color: #EBEBEB;
+}
+
+.wp-admin .treatments {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #888;
+    margin-bottom: 1em;
+}
+
+.wp-admin .treatments ul{
+	list-style: disc;
+	margin-left: 1em;
+}
+
+.wp-admin .faqLinkWrapper{
+	margin-top: 1em;
+}
+
+
+
